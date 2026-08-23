@@ -1,0 +1,27 @@
+{
+  "packageId": "pt.ilhaverde.mootiny",
+  "name": "Mootiny",
+  "launcherName": "Mootiny",
+  "display": "fullscreen",
+  "themeColor": "#C4452D",
+  "themeColorDark": "#1C1410",
+  "navigationColor": "#1C1410",
+  "navigationColorDark": "#1C1410",
+  "backgroundColor": "#1C1410",
+  "enableNotifications": false,
+  "enableSiteSettingsShortcut": false,
+  "isChromeOSOnly": false,
+  "isMetaQuest": false,
+  "fallbackType": "customtabs",
+  "minSdkVersion": 24,
+  "targetSdkVersion": 36,
+  "orientation": "default",
+  "fullScope": true,
+  "iconUrl": "/icon-512.png",
+  "maskableIconUrl": "/icon-512.png",
+  "shortcuts": [],
+  "features": {
+    "locationDelegation": { "enabled": false },
+    "playBilling": { "enabled": false }
+  }
+}

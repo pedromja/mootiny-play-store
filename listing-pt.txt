@@ -1,0 +1,71 @@
+MOOTINY — Ficha da Google Play (português de Portugal)
+======================================================
+Copia cada bloco para o campo correspondente na Play Console.
+Idioma predefinido: Português (Portugal)
+
+
+NOME DA APLICAÇÃO (máx. 30 caracteres)
+--------------------------------------
+Mootiny
+
+
+DESCRIÇÃO CURTA (máx. 80 caracteres)
+------------------------------------
+As vacas acordaram. Plataforma cómico da revolta contra o leite.
+
+
+DESCRIÇÃO COMPLETA (máx. 4000 caracteres)
+-----------------------------------------
+As vacas da Ilha Verde pastavam. Só isso. Depois da trovoada nasceram cogumelos da consciência. Mimosa mordeu o maior. PLOP. Os olhos abriram-se. A Super Ordenhadeira 3000 nunca mais foi a mesma.
+
+Mootiny é um jogo plataforma cómico em 2D. Controlas Mimosa, uma Holstein de bandana vermelha, em duas patas, a libertar as irmãs, desligar a fábrica e ir à cidade partir os anúncios de lacticínios.
+
+A CAMPANHA
+• Ilha Verde — o pasto, os cogumelos, o primeiro mugido.
+• A Quinta — tratores, cercas, a Super Ordenhadeira 3000.
+• Estrada do Leite — latas com pernas, carrinhas-cisterna, agricultores barrigudos.
+• A Fábrica — assalto, saque das bilhas, a manada inteira em campo.
+• A Cidade — outdoors, supermercado, o Rei Queijo.
+
+MINIJOGOS OPCIONAIS
+Não travam a campanha. Ganham emblemas que provam que estás empenhada na luta:
+• Ordenha-Tetris — empacota queijo, iogurte e latas no compactador.
+• Cartaz-Pisão — parte os anúncios de leite a cabeçada.
+
+PODERES
+Arranque, duplo salto e Super Muu. Desbloqueiam-se a jogar, ficam no save.
+
+PARA TODA A FAMÍLIA
+Humor de quinta, sem sangue, sem linguagem pesada. Depois de duas quedas seguidas podes baixar a dificuldade. Pacotes de som: clássico, Mootiny (os mais parvos) ou silêncio.
+
+COMANDOS
+Telemóvel: botões em marca de água em ecrã inteiro.
+Teclado: A/D andar, Espaço saltar.
+
+O jogo é grátis, com anúncios cómicos. Podes recusar anúncios personalizados e jogar na mesma. Progresso gravado no aparelho — sem contas.
+
+Uma produção das Vacas da Ilha Verde. Agricultores não foram consultados.
+
+
+O QUE HÁ DE NOVO (máx. 500)
+---------------------------
+Primeira versão na Play Store. Campanha da quinta à cidade, níveis com a manada, minijogos opcionais para emblemas, pacote de sons Mootiny e comandos em marca de água no telemóvel.
+
+
+CATEGORIA
+---------
+Jogo → Arcade
+(alternativa: Aventura)
+
+
+CONTACTO
+--------
+E-mail de apoio: o teu e-mail (obrigatório na Consola — usa um que leias)
+Sítio web: o endereço público do Mootiny, com /privacidade no fim para a política
+Política de privacidade: https://SEU-SITIO/privacidade
+
+
+NOME DO PROGRAMADOR (público)
+-----------------------------
+Ilha Verde
+(ou o teu nome; aparece por baixo do título na Play)

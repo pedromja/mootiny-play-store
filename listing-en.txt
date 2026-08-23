@@ -1,0 +1,56 @@
+MOOTINY — Google Play listing (English)
+======================================
+Add a second language in Play Console → Store listing → Manage translations → English (United States or UK).
+
+
+APP NAME (max 30)
+-----------------
+Mootiny
+
+
+SHORT DESCRIPTION (max 80)
+--------------------------
+The cows woke up. A comic platformer about a milk revolt.
+
+
+FULL DESCRIPTION (max 4000)
+---------------------------
+The cows of Green Isle grazed. That was it. After the storm, mushrooms of consciousness sprouted. Mimosa bit the biggest one. PLOP. Her eyes opened. The Super Milker 3000 would never be the same.
+
+Mootiny is a comic 2D platformer. You play Mimosa, a Holstein in a red bandana, on two hind legs, freeing her sisters, shutting down the dairy and headbutting milk ads in the city.
+
+THE CAMPAIGN
+• Green Isle — pasture, mushrooms, the first moo.
+• The Farm — tractors, fences, the Super Milker 3000.
+• Milk Road — walking cans, tanker vans, pot-bellied farmers.
+• The Factory — the raid, the jug heist, the whole herd on screen.
+• The City — billboards, supermarket, the Cheese King.
+
+OPTIONAL MINIGAMES
+They do not gate the campaign. They earn badges that prove you are in the fight:
+• Milking Tetris — pack cheese, yogurt and cans into the crusher.
+• Billboard Stomp — headbutt dairy ads until they fall.
+
+POWERS
+Dash, double jump and Super Moo. Unlocked by playing, kept in the save.
+
+FAMILY-FRIENDLY
+Farmyard humour, no blood, no heavy language. After two fails in a row you can drop the difficulty. Sound packs: classic, Mootiny (as silly as it gets) or mute.
+
+CONTROLS
+Phone: watermark buttons, fullscreen.
+Keyboard: A/D move, Space jump.
+
+The game is free, with comic ads. You can refuse personalised ads and still play. Progress is saved on the device — no accounts.
+
+A Green Isle Cows production. Farmers were not consulted.
+
+
+WHAT'S NEW (max 500)
+--------------------
+First Play Store release. Farm-to-city campaign, herd levels, optional badge minigames, the Mootiny sound pack and watermark touch controls.
+
+
+CATEGORY
+--------
+Games → Arcade

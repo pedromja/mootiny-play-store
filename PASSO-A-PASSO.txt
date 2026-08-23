@@ -1,0 +1,192 @@
+MOOTINY — Primeira vez na Google Play (passo a passo)
+====================================================
+Não precisas de Android Studio. Não precisas de saber programar apps nativas.
+Eu não consigo premir «Enviar» na Consola por ti — a Google exige a TUA conta,
+o TEU cartão e o TEU documento de identidade. Daqui para a frente és tu,
+com os ficheiros desta pasta e o jogo já pronto.
+
+A versão web desta página: /publicar
+O pacote para descarregar: /play/mootiny-play-kit.zip
+
+
+ANTES DE COMEÇAR — o que precisas
+---------------------------------
+• Uma conta Google (Gmail) com validação em dois passos ligada
+• Cartão de débito ou crédito (não pré-pago) para os 25 USD, uma só vez
+• Cartão de cidadão ou passaporte (a Google verifica a identidade)
+• Um telemóvel Android para testar
+• 12 amigos/família com Android que aceitem ser testadores durante 14 dias
+  (é regra da Play para contas pessoais novas: sem isto a app não vai a
+  produção, só a um teste fechado)
+• Um e-mail de apoio que leias (fica público na ficha)
+• O endereço público do Mootiny na web, quando o publicares
+  (a política de privacidade tem de ser um URL https real, não um ficheiro)
+
+
+PASSO 0 — Publicar o Mootiny na web
+-----------------------------------
+A Play NÃO aceita o pré-visualizador. Precisa de um https público.
+
+No Grok: publica / partilha a app desta conversa (botão de publicar ou Remix).
+Quando existir um endereço do género https://mootiny.grok.me, guarda-o.
+A política de privacidade fica em https://ESSE-ENDEREÇO/privacidade.
+
+Sem este URL não consegues preencher a ficha da Play nem gerar o .aab.
+
+
+PASSO 1 — Conta de programador (25 USD, uma vez)
+------------------------------------------------
+1. Abre https://play.google.com/console/signup no computador
+2. Escolhe conta PESSOAL (és tu, não uma empresa)
+3. Nome público do programador: Ilha Verde  (ou o teu nome)
+4. Paga os 25 USD
+5. Verificação de identidade: fotografia do CC/passaporte, morada, telefone
+6. Instala a app «Play Console» no teu Android quando a Google pedir
+   para confirmares que tens um telemóvel verdadeiro
+7. Espera a aprovação da conta (horas a 2 dias úteis)
+
+
+PASSO 2 — Criar a aplicação
+---------------------------
+Na Consola: Todas as aplicações → Criar aplicação
+
+• Nome: Mootiny
+• Idioma predefinido: Português (Portugal)
+• Tipo: Jogo / App  →  Jogo
+• Gratuita ou paga: Gratuita
+• Declarações: aceita as políticas, as guidelines de conteúdo, e que a
+  app NÃO é dirigida principalmente a crianças
+
+
+PASSO 3 — Ficha da Play Store
+-----------------------------
+Menu esquerdo → Presença na loja → Ficha principal da loja
+
+• Descrições: copia de listing-pt.txt (e listing-en.txt se quiseres inglês)
+• Ícone: icon-512.png  (512×512 PNG)
+• Gráfico de destaque: feature-graphic.png  (1024×500)
+• Capturas de ecrã do telemóvel: pasta screenshots/
+  — envia pelo menos 2; envia as 8
+  — 01 a 07 são 1920×1080 (paisagem)
+  — 08 é 1080×1920 (retrato, telemóvel)
+• Gráfico de destaque 7" / 10" (tablet): podes reutilizar 01-titulo.jpg
+• Categoria: Jogos → Arcade
+• E-mail de contacto: o teu
+• Política de privacidade: https://SEU-SITIO-PUBLICO/privacidade
+  (obrigatório. Sem URL https a Google recusa. O Mootiny já tem esta página.)
+
+
+PASSO 4 — Classificação etária (IARC)
+-------------------------------------
+Política da app → Classificação de conteúdo
+Segue iarc.txt à letra. Não inventes. Não marques «Famílias».
+
+
+PASSO 5 — Segurança dos dados
+-----------------------------
+Política da app → Segurança dos dados
+Segue data-safety.txt à letra. Nesta versão: sem recolha, sem partilha,
+anúncios SIM, IAP NÃO, crianças NÃO.
+
+
+PASSO 6 — Pacote Android (.aab) sem Android Studio
+--------------------------------------------------
+A Play NÃO aceita um sítio web sozinho. Precisa de um Android App Bundle.
+
+Caminho mais simples (browser, grátis):
+
+1. Publica o Mootiny na web (o endereço https definitivo)
+2. Abre https://www.pwabuilder.com
+3. Cola o endereço do Mootiny → Start
+4. Package for stores → Android
+5. Opções (twa.json nesta pasta):
+     Package ID:     pt.ilhaverde.mootiny
+     App name:       Mootiny
+     Launcher name:  Mootiny
+     Display:        fullscreen
+     Theme color:    #C4452D
+     Background:     #1C1410
+     Target SDK:     36   (obrigatório para apps novas a partir de 31 ago 2026)
+     Notifications:  OFF
+     Play billing:   OFF
+   Se o ícone da PWA for pequeno, carrega icon-512.png à mão.
+6. Descarrega o ZIP. Dentro vem:
+     • app-release-bundle.aab   ← este sobe à Play
+     • signing.keystore + passwords  ← GUARDA num sítio seguro, para sempre
+     • assetlinks.json          ← fingerprint SHA-256
+
+7. Abre assetlinks.json do ZIP, copia a linha SHA-256, e substitui
+   REPLACE_WITH_PLAY_APP_SIGNING_SHA256 no ficheiro público
+   /.well-known/assetlinks.json do Mootiny. Sem isto a app Android
+   mostra a barra de endereço do Chrome em vez de ecrã inteiro.
+
+Alternativa: Google Play App Signing (recomendado). Depois do primeiro
+upload, a Consola mostra o SHA-256 da chave da Google. Usa ESSE no
+assetlinks.json, não só o do PWABuilder.
+
+
+PASSO 7 — Teste fechado (obrigatório para contas novas)
+-------------------------------------------------------
+Contas pessoais criadas depois de 13 nov 2023 NÃO podem ir a Produção
+à primeira. Têm de:
+
+1. Testar e lançar → Teste fechado → Criar faixa
+2. Carregar o .aab  (nome da versão: 1.0.0, código 1)
+3. Criar uma lista de e-mails de testadores (Gmails)
+4. Convidar PELO MENOS 12 pessoas
+5. Cada uma tem de:
+     a) Aceitar o convite no link que a Consola gera
+     b) Instalar o Mootiny a partir da Play (não por APK à parte)
+     c) Abrir o jogo pelo menos uma vez
+6. Deixar 14 dias SEGUIDOS com 12 testadores ainda inscritos
+7. Só depois: Testar e lançar → Produção → Pedir acesso à produção
+
+Convida 16–20 pessoas. Se 3 desistirem, o contador falha.
+Família e amigos servem; a Google prefere que joguem de verdade
+(não só instalar e esquecer).
+
+
+PASSO 8 — Produção
+------------------
+Quando a Consola deixar:
+
+• Copia a faixa de teste fechado para Produção
+  (ou faz um novo upload do mesmo .aab)
+• Países: começa por Portugal, depois UE / mundo
+• Revisão da Google: normalmente 1 a 7 dias
+• Se rejeitarem, lê o e-mail. Motivos comuns:
+    – política de privacidade a 404
+    – Data safety a não bater certo com anúncios
+    – testadores sem actividade
+    – ícone / capturas com marcas de outras empresas
+    – conteúdo «enganoso» (não digas que és a Super Cow)
+
+
+O QUE EU JÁ FIZ POR TI
+----------------------
+• Página pública /privacidade (e /privacy em inglês)
+• Página /publicar com este guia
+• Ícone 512, gráfico 1024×500, 8 capturas no tamanho da Play
+• Textos PT e EN da ficha
+• Respostas de Data safety e IARC
+• Identificador da app: pt.ilhaverde.mootiny
+• Manifesto PWA, service worker, e modelo de Digital Asset Links
+
+
+O QUE SÓ TU PODES FAZER
+-----------------------
+• Publicar a app na web (Grok → partilhar / publicar) para ter o https
+• Pagar os 25 USD e verificar a identidade
+• Colar a política com o URL https verdadeiro
+• Gerar o .aab no PWABuilder a partir do sítio publicado
+• Convidar os 12 testadores
+• Premir Enviar para revisão
+
+
+NÃO FAÇAS
+---------
+• Não uses um gerador de APK duvidoso da Internet (malware, rejeição)
+• Não clones o nome Super Mario / Super Cow na ficha
+• Não digas que o jogo é «para crianças» se tem anúncios
+• Não percas o keystore do PWABuilder — sem ele não actualizas a app
+• Não subas um APK; a Play quer AAB nas apps novas

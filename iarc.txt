@@ -1,0 +1,43 @@
+MOOTINY — Questionário IARC (classificação etária)
+==================================================
+Play Console → Política da app → Classificação de conteúdo → Iniciar questionário
+Categoria: Jogos
+
+
+VIOLÊNCIA
+- A app contém violência?  SIM  (cartoon / fantasia)
+- Violência realista / sangue / mutilação?  NÃO
+- Violência contra personagens desprotegidas / animais reais?  NÃO
+  (são agricultores e máquinas de desenho animado; as vacas são as heroínas)
+- Armas de fogo realistas?  NÃO
+
+SEXUAL / NUDEZ
+- Conteúdo sexual, nudez, insinuação?  NÃO
+
+LINGUAGEM
+- Linguagem grosseira?  NÃO
+
+DROGAS / ÁLCOOL / TABACO
+- Referências a drogas, álcool ou tabaco?  NÃO
+  (os «cogumelos da consciência» são um enredo de conto; se o questionário perguntar «uso de drogas» de forma genérica, responde NÃO)
+
+JOGOS DE AZAR
+- Gambling / apostas com dinheiro real ou virtual?  NÃO
+
+MEDO / HORROR
+- Conteúdo de terror?  NÃO
+
+TEMAS ONLINE
+- Interacção entre utilizadores?  NÃO
+- Partilha da localização?  NÃO
+- Conteúdo gerado por utilizadores?  NÃO
+- Compras na aplicação?  NÃO
+- Anúncios digitais?  SIM
+- Acesso à Internet não restringido / browser?  NÃO  (a app abre o próprio jogo)
+
+IDADE-ALVO
+- Não é feito para crianças (Designed for Families: NÃO, por causa dos anúncios)
+- Público: todas as idades / PEGI 3 ou 7 tipicamente (violência cartoon)
+
+Resultado esperado: PEGI 3 ou PEGI 7, ESRB Everyone, IARC 3+.
+Se o questionário te empurrar para 12+ por causa dos anúncios, aceita — é comum.

@@ -1,0 +1,19 @@
+MOOTINY — Segurança dos dados
+====================================================================================
+Responde exactamente assim NESTA versão do jogo (sem AdMob ainda).
+
+1) A app recolhe ou partilha dados do utilizador?
+   → Recolhe: NÃO
+   → Partilha: NÃO
+
+2) Práticas de segurança?
+   → Dados em trânsito encriptados (HTTPS): SIM
+   → Utilizadores podem pedir o apagamento: SIM
+     Como: Definições do Android → Aplicações → Mootiny → Armazenamento → Limpar dados
+
+3) A app é dirigida a crianças?  NÃO
+   Não inscrever em Designed for Families.
+
+4) A app tem anúncios?  SIM (paródia de primeira parte, sem SDK de terceiros)
+5) Compra na aplicação / IAP?  NÃO
+6) Tipos de dados — deixa TUDO desmarcado nesta versão.
